@@ -1,0 +1,109 @@
+td:nth-child(1){
+    background-color:rgb(0, 4, 255);
+}
+tr:nth-child(1) td:nth-child(1)  {
+    background-color: yellow;
+}
+tr :nth-child(2){
+    background-color: burlywood;
+}
+tr :nth-child(2) :nth-last-child{
+    background-color: rgba(rgb(0, 204, 255), green, blue, alpha);
+}
+tr :nth-child(2) :nth-last-child(2){
+    background-color: teal;
+}
+tr :nth-child(3) :nth-child(n + 3):nth-child(-n + 5){
+    background-color: green;
+} 
+
+tr :nth-child(3) :nth-child(n + 6):nth-child(-n + 8){
+    background-color: rgb(0, 92, 128);
+} 
+tr :nth-child(3) :nth-child(n + 7):nth-child(-n + 9){
+    background-color: rgb(0, 124, 128);
+} 
+
+tr :nth-child(4) :nth-child(n + 4):nth-child(-n + 7){
+    background-color: green;
+}
+tr :nth-last-child(4){
+    background-color: rgba(rgb(0, 124, 128), green, blue, alpha);
+}
+tr :nth-last-child(4 + 1){
+    background-color: teal;
+}
+
+tr :nth-child(5) :nth-child(n + 4):nth-child(-n + 7){
+    background-color: green;
+}
+tr :nth-last-child(5){
+    background-color: rgba(rgb(0, 124, 128), green, blue, alpha);
+}
+tr :nth-last-child(5 + 1){
+    background-color: teal;
+}
+tr :nth-child(6) :nth-child(n + 4):nth-child(-n + 7){
+    background-color: green;
+}
+tr :nth-last-child(6){
+    background-color: rgba(rgb(0, 124, 128), green, blue, alpha);
+}
+tr :nth-last-child(6 + 1){
+    background-color: teal;
+}
+tr :nth-child(7) :nth-child(n + 4):nth-child(-n + 7){
+    background-color: green;
+}
+tr :nth-last-child(7){
+    background-color: rgba(rgb(0, 124, 128), green, blue, alpha);
+}
+tr :nth-last-child(7 + 1){
+    background-color: teal;
+}
+tr :nth-child(8) :nth-child(n + 4):nth-child(-n + 7){
+    background-color: green;
+}
+tr :nth-last-child(8){
+    background-color: rgba(rgb(0, 124, 128), green, blue, alpha);
+}
+tr :nth-last-child(8 + 1){
+    background-color: teal;
+}
+tr :nth-child(9) :nth-child(n + 4):nth-child(-n + 7){
+    background-color: green;
+}
+tr :nth-last-child(9){
+    background-color: rgba(rgb(0, 124, 128), green, blue, alpha);
+}
+tr :nth-last-child(9 + 1){
+    background-color: teal;
+}
+tr :nth-child(10) :nth-child(n + 4):nth-child(-n + 7){
+    background-color: green;
+}
+tr :nth-last-child(10){
+    background-color: rgba(rgb(0, 124, 128), green, blue, alpha);
+}
+tr :nth-last-child(10 + 1){
+    background-color: teal;
+}
+tr :nth-child(11) :nth-child(n + 4):nth-child(-n + 7){
+    background-color: green;
+}
+tr :nth-last-child(11){
+    background-color: rgba(rgb(0, 124, 128), green, blue, alpha);
+}
+tr :nth-last-child(11 + 1){
+    background-color: teal;
+
+}
+tr :nth-child(12) :nth-child(n + 4):nth-child(-n + 7){
+    background-color: green;
+}
+tr :nth-last-child(12){
+    background-color: rgba(rgb(0, 124, 128), green, blue, alpha);
+}
+tr :nth-last-child(12 + 1){
+    background-color: teal;
+}
